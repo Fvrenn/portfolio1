@@ -216,7 +216,7 @@ transform: rotate(360deg);
 /* --------------------------------- Footer -------------------------------- */
 .test-footer{
   position: absolute;
-  background-image: url(../Caroussel/resources/bg/bg-newsletter-1920-1112def10.png);
+  background-image: url(https://res.cloudinary.com/de1hcoekb/image/upload/v1631384487/portfolio/bg-newsletter-1920-1112def10_xtuxbc.jpg);
   background-repeat: no-repeat;
   top: 1010px;
   right: 0px;
