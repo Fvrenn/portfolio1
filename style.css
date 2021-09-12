@@ -21,7 +21,7 @@
 *, ::before, ::after {
   box-sizing: border-box;
   margin:0;
- 
+
 }
 html{
   scroll-behavior: smooth;
@@ -30,7 +30,7 @@ html{
 body{
   overflow-x: hidden;
   background-color: black;
-  
+
 }
 
 a{
@@ -87,7 +87,7 @@ a{
 
 .timothe{
   font-size: 70px;
-  
+
   font-family: 'ts_blockbold';
 }
 .nom{
@@ -99,13 +99,13 @@ a{
   padding-left: 48%;
   transform: translatey(50%);
 
- 
+
 }
 .HEGE{
   font-size: 70px;
   color: white;
   font-family: 'ts_blockbold';
-  
+
 }
 
 
@@ -137,7 +137,7 @@ a{
 .photo{
   width: 30%;
   padding-left: 200px;
- 
+
   position: absolute;
   top: 32%;
   display: grid;
@@ -158,7 +158,7 @@ a{
 .portfolio-experiment{
 
   padding-left: 200px;
-  
+
   width: 100%;
   position: absolute;
   top: 55%;
@@ -189,7 +189,7 @@ transform: rotate(360deg);
   left: -70px;
   transition-duration: 0.8s;
   transition-property: transform;
- 
+
 }
 
 .plus2{
@@ -202,7 +202,7 @@ transform: rotate(360deg);
   right: -70px;
   transition-duration: 0.8s;
   transition-property: transform;
- 
+
 }
 /* --------------------------------- Vague rouge -------------------------------- */
 .vague-rouge{
@@ -222,12 +222,12 @@ transform: rotate(360deg);
   right: 0px;
   width: 1920px;
   height: 1080px;
- 
+
 
 
 }
 #footer{
-  
+
 
 }
 #test-footer li{
@@ -273,8 +273,10 @@ transform: rotate(360deg);
   text-align: center;
   display: grid;
   place-items: center;
-  left: 340px;
+  left: 200px;
+  right: 200px;
   line-height: 1.5em;
+  
 }
 
 
@@ -288,28 +290,28 @@ justify-content: center;
 position: absolute;
 top: 1600px;
 right: 70px;
-z-index: 100;
+padding-left: 50px;
 
 }
 
 .image-cv img{
- 
 
-  
+
+
 }
 #CV{
   position: absolute;
   top: 1300px;
 
-  
-  
- 
+
+
+
 
 }
 
 
 /* --------------------------------- paragraphe 2 -------------------------------- */
-#paragraphe2{
+/* #paragraphe2{
   position: absolute;
   top: 110em;
   text-align: center;
@@ -317,17 +319,33 @@ z-index: 100;
   place-items: center;
   left: 40px;
 
-}
+} */
 .fin{
   font-size: 25px;
   color: white;
   font-family: 'hansonbold';
   line-height: 1.2em;
- 
- 
+
+
 
 
 }
+
+#paragraphe2{
+  font-family: 'hansonbold';
+  font-size: 20px;
+  position: absolute;
+  font-weight: lighter;
+  top: 85em;
+  text-align: left;
+  display: grid;
+  place-items: left;
+  left: 30px; 
+  line-height: 1.5em;
+  padding-right: 770px;
+}
+
+
 /* --------------------------------- Fleche haut 2 -------------------------------- */
 
 
@@ -442,8 +460,602 @@ z-index: 100;
   transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
   transform-origin: left;
 }
+/* ---------------------------------Responsiv-------------------------------- */
+
+@media screen and (max-width: 1000px){
+  .txt-dev-contrat{
+    font-size: 25px;
+    color: white;
+    font-family: 'ts_blockbold';
+  
+  
+  }
+  
+  .text-midl{
+    padding-left: 200px;
+    overflow-x: hidden;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .aprentissage{
+    display: grid;
+    place-items: center;
+  }
+   }
 
 
+   @media screen and (max-width: 1000px){
+    
+   .text{
+    font-size: 27px;
+    color: white;
+    font-family: 'ts_blockbold';
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: white;
+    z-index: 10;
+  }
+  
+  .portfolio-experiment{
+  
+    padding-left: 200px;
+  
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    display: grid;
+    place-items: center;
+  }
+     }
+
+
+  
+/* ---------------------------------Responsiv-------------------------------- */
+
+@media screen and (max-width: 1522px){
+ .photo{
+  width: 30%;
+  padding-left: 150px;
+
+  position: absolute;
+  top: 32%;
+  display: grid;
+  place-items: center;
+
+}
+  }
+
+  @media screen and (max-width: 1362px){
+    .photo{
+     width: 33%;
+     padding-left: 150px;
+     position: absolute;
+     top: 32%;
+     display: grid;
+     place-items: center;
+   
+   }
+     }
+
+     @media screen and (max-width: 1230px){
+      .photo{
+       width: 33%;
+       padding-left: 120px;
+       position: absolute;
+       top: 32%;
+       display: grid;
+       place-items: center;
+     
+     }
+       }
+       @media screen and (max-width: 1082px){
+        .photo{
+         width: 33%;
+         padding-left: 100px;
+         position: absolute;
+         top: 32%;
+         display: grid;
+         place-items: center;
+       
+       }
+         }
+         @media screen and (max-width: 1000px){
+          .photo{
+           width: 70%;
+           padding-left: 400px;
+           position: absolute;
+           top: 37%;
+           display: grid;
+           place-items: center;
+         
+         }
+           }
+           @media screen and (max-width: 908px){
+            .photo{
+              width: 78%;
+              padding-left: 400px;
+              position: absolute;
+              top: 37%;
+              display: grid;
+              place-items: center;
+            
+            }
+             }
+             @media screen and (max-width: 930px){
+              .photo{
+                width: 78%;
+                padding-left: 400px;
+                position: absolute;
+                top: 40%;
+                display: grid;
+                place-items: center;
+              
+              }
+               }
+               @media screen and (max-width: 774px){
+                .photo{
+                  width: 78%;
+                  padding-left: 400px;
+                  position: absolute;
+                  top: 40%;
+                  display: grid;
+                  place-items: center;
+                
+                }
+                 }
+                 @media screen and (max-width: 730px){
+                  .photo{
+                    width: 75%;
+                    padding-left: 200px;
+                    position: absolute;
+                    top: 30%;
+                    display: grid;
+                    place-items: center;
+                  
+                  }
+                   }
+                   @media screen and (max-width: 655px){
+                    .photo{
+                      width: 75%;
+                      padding-left: 200px;
+                      position: absolute;
+                      top: 35%;
+                      display: grid;
+                      place-items: center;
+                    
+                    }
+                     }
+/* ---------------------------------Responsiv-------------------------------- */
+
+@media screen and (max-width: 1650px){
+  .prenom{
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    padding-left: 22%;
+    transform: translatey(50%);
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    z-index: 10;
+  }
+  
+  .timothe{
+    font-size: 70px;
+  
+    font-family: 'ts_blockbold';
+  }
+  .nom{
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    padding-left: 48%;
+    transform: translatey(50%);
+  
+  
+  }
+  .HEGE{
+    font-size: 70px;
+    color: white;
+    font-family: 'ts_blockbold';
+  
+  }
+  }
+
+
+
+  @media screen and (max-width: 956px){
+    .prenom{
+      display: flex;
+      overflow-x: hidden;
+      width: 100%;
+      position: absolute;
+      top: 10%;
+      padding-left: 18%;
+      transform: translatey(50%);
+      color: rgba(255, 255, 255, 0);
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+      z-index: 10;
+    }
+    
+    .timothe{
+      font-size: 70px;
+    
+      font-family: 'ts_blockbold';
+    }
+    .nom{
+      display: flex;
+      overflow-x: hidden;
+      width: 100%;
+      position: absolute;
+      top: 20%;
+      padding-left: 48%;
+      transform: translatey(50%);
+    
+    
+    }
+    .HEGE{
+      font-size: 70px;
+      color: white;
+      font-family: 'ts_blockbold';
+    
+    }
+    }
+    @media screen and (max-width: 708px){
+      .prenom{
+        display: flex;
+        overflow-x: hidden;
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        padding-left: 16%;
+        transform: translatey(50%);
+        color: rgba(255, 255, 255, 0);
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+        z-index: 10;
+      }
+      
+      .timothe{
+        font-size: 70px;
+      
+        font-family: 'ts_blockbold';
+      }
+      .nom{
+        display: flex;
+        overflow-x: hidden;
+        width: 100%;
+        position: absolute;
+        top: 20%;
+        padding-left: 48%;
+        transform: translatey(50%);
+      
+      
+      }
+      .HEGE{
+        font-size: 70px;
+        color: white;
+        font-family: 'ts_blockbold';
+      
+      }
+      }
+
+    @media screen and (max-width: 638px){
+        .prenom{
+          display: flex;
+          overflow-x: hidden;
+          width: 100%;
+          position: absolute;
+          top: 10%;
+          padding-left: 10%;
+          transform: translatey(50%);
+          color: rgba(255, 255, 255, 0);
+          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-color: white;
+          z-index: 10;
+        }
+        
+        .timothe{
+          font-size: 70px;
+        
+          font-family: 'ts_blockbold';
+        }
+        .nom{
+          display: flex;
+          overflow-x: hidden;
+          width: 100%;
+          position: absolute;
+          top: 20%;
+          padding-left: 48%;
+          transform: translatey(50%);
+        
+        
+        }
+        .HEGE{
+          font-size: 70px;
+          color: white;
+          font-family: 'ts_blockbold';
+        
+        }
+        }
+        @media screen and (max-width: 558px){
+          .prenom{
+            display: flex;
+            overflow-x: hidden;
+            width: 100%;
+            position: absolute;
+            top: 10%;
+            padding-left: 2%;
+            transform: translatey(50%);
+            color: rgba(255, 255, 255, 0);
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: white;
+            z-index: 10;
+          }
+          
+          .timothe{
+            font-size: 70px;
+          
+            font-family: 'ts_blockbold';
+          }
+          .nom{
+            display: flex;
+            overflow-x: hidden;
+            width: 100%;
+            position: absolute;
+            top: 20%;
+            padding-left: 40%;
+            transform: translatey(50%);
+          
+          
+          }
+          .HEGE{
+            font-size: 70px;
+            color: white;
+            font-family: 'ts_blockbold';
+          
+          }
+          }
+
+   @media screen and (max-width: 508px){
+            .prenom{
+              display: flex;
+              overflow-x: hidden;
+              width: 100%;
+              position: absolute;
+              top: 10%;
+              padding-left: 2%;
+              transform: translatey(50%);
+              color: rgba(255, 255, 255, 0);
+              -webkit-text-stroke-width: 2px;
+              -webkit-text-stroke-color: white;
+              z-index: 10;
+            }
+            
+            .timothe{
+              font-size: 50px;
+            
+              font-family: 'ts_blockbold';
+            }
+            .nom{
+              display: flex;
+              overflow-x: hidden;
+              width: 100%;
+              position: absolute;
+              top: 20%;
+              padding-left: 40%;
+              transform: translatey(50%);
+            
+            
+            }
+            .HEGE{
+              font-size: 50px;
+              color: white;
+              font-family: 'ts_blockbold';
+            
+            }
+            }
+/* ---------------------------------Responsiv paragraphe 1-------------------------------- */
+
+@media screen and (max-width: 1250px){
+  .A-PROPOS-DE-MOI{
+    font-family: 'hansonbold';
+    font-size: 18px;
+    position: absolute;
+    font-weight: lighter;
+    top: 1100px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    left: 200px;
+    right: 200px;
+    line-height: 1.5em;
+    
+  }
+
+  }
+@media screen and (max-width: 1020px){
+    .A-PROPOS-DE-MOI{
+      font-family: 'hansonbold';
+      font-size: 18px;
+      position: absolute;
+      font-weight: lighter;
+      top: 1060px;
+      text-align: center;
+      display: grid;
+      place-items: center;
+      left: 100px;
+      right: 100px;
+      line-height: 1.5em;
+      
+}
+
+    }
+@media screen and (max-width: 979px){
+  .A-PROPOS-DE-MOI{
+        font-family: 'hansonbold';
+        font-size: 20px;
+        position: absolute;
+        font-weight: lighter;
+        top: 1060px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+        left: 100px;
+        right: 100px;
+        line-height: 1.5em;
+        
+      }
+  
+      }
+@media screen and (max-width: 908px){
+        .A-PROPOS-DE-MOI{
+          font-family: 'hansonbold';
+          font-size: 18px;
+          position: absolute;
+          font-weight: lighter;
+          top: 1060px;
+          text-align: center;
+          display: grid;
+          place-items: center;
+          left: 100px;
+          right: 100px;
+          line-height: 1.5em;
+          
+   }
+    
+     }
+   @media screen and (max-width: 800px){
+.A-PROPOS-DE-MOI{
+            font-family: 'hansonbold';
+            font-size: 17px;
+            position: absolute;
+            font-weight: lighter;
+            top: 1060px;
+            text-align: center;
+            display: grid;
+            place-items: center;
+            left: 100px;
+            right: 100px;
+            line-height: 1.5em;
+            
+          }
+      
+          }
+          @media screen and (max-width: 725px){
+            .A-PROPOS-DE-MOI{
+              font-family: 'hansonbold';
+              font-size: 16px;
+              position: absolute;
+              font-weight: lighter;
+              top: 1060px;
+              text-align: center;
+              display: grid;
+              place-items: center;
+              left: 100px;
+              right: 100px;
+              line-height: 1.5em;
+              
+            }
+        
+            }
+
+            @media screen and (max-width: 646px){
+              .A-PROPOS-DE-MOI{
+                font-family: 'hansonbold';
+                font-size: 15px;
+                position: absolute;
+                font-weight: lighter;
+                top: 1060px;
+                text-align: center;
+                display: grid;
+                place-items: center;
+                left: 100px;
+                right: 100px;
+                line-height: 1.5em;
+                
+              }
+          
+              }
+              @media screen and (max-width: 600px){
+                .A-PROPOS-DE-MOI{
+                  font-family: 'hansonbold';
+                  font-size: 14px;
+                  position: absolute;
+                  font-weight: lighter;
+                  top: 1060px;
+                  text-align: center;
+                  display: grid;
+                  place-items: center;
+                  left: 100px;
+                  right: 50px;
+                  line-height: 1.5em;
+                  
+                }
+            
+                }
+                @media screen and (max-width: 548px){
+                  .A-PROPOS-DE-MOI{
+                    font-family: 'hansonbold';
+                    font-size: 13px;
+                    position: absolute;
+                    font-weight: lighter;
+                    top: 1060px;
+                    text-align: center;
+                    display: grid;
+                    place-items: center;
+                    left: 100px;
+                    right: 50px;
+                    line-height: 1.5em;
+                    
+                  }
+              
+                  }
+
+                  @media screen and (max-width: 480px){
+                    .A-PROPOS-DE-MOI{
+                      font-family: 'hansonbold';
+                      font-size: 12px;
+                      position: absolute;
+                      font-weight: lighter;
+                      top: 1050px;
+                      text-align: center;
+                      display: grid;
+                      place-items: center;
+                      left: 100px;
+                      right: 50px;
+                      line-height: 1.5em;
+                      
+                    }
+                
+                    }
+
+                    @media screen and (max-width: 411px){
+                      .A-PROPOS-DE-MOI{
+                        font-family: 'hansonbold';
+                        font-size: 11px;
+                        position: absolute;
+                        font-weight: lighter;
+                        top: 1050px;
+                        text-align: center;
+                        display: grid;
+                        place-items: center;
+                        left: 100px;
+                        right: 50px;
+                        line-height: 1.5em;
+                        
+                      }
+                  
+                      }
 
 
 
